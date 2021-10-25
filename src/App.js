@@ -13,7 +13,7 @@ const simpsonQuote = [
 ]
 
 function App() {
-const [quote, setQuote] = useState(simpsonQuote);
+const [quote, setQuote] = useState(...simpsonQuote);
 
 const getQuote = () => {
   // Send the request
